@@ -1,0 +1,9 @@
+export PROJ_ROOT=~/CS-161B-SPRING-2023
+
+gr () {
+  $PROJ_ROOT/.Grading-Utilities/test-all.sh "$PROJ_ROOT/.temp/A${1}" "Assignment-${1}" "$2"
+}
+
+fx () {
+  $PROJ_ROOT/.Grading-Utilities/fix-filenames.sh "$(realpath ${1})"
+}

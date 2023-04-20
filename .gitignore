@@ -1,4 +1,9 @@
 .temp/*
+.ccls-cache/*
+.cache/*
+.bashrc
+.replit
+replit.nix
 
 # Prerequisites
 *.d
@@ -32,3 +37,4 @@
 *.exe
 *.out
 *.app
+main

@@ -10,8 +10,12 @@ head -n 3 "$P"
 echo -e "\nREQUIRED FUNCTION NAMES:"
 while IFS= read -r line; 
 do
-  grep -q "$line" "$P" && echo -n "[OK] " || echo -n '[--] '
-  echo $line
+  if grep -q "$line" "$P" 
+  then
+    true # Do nothing, successfully!
+  else
+    echo '[--] '$line
+  fi
 done < required-function-names.txt
 
 echo -e "\nREQUIRED FUNCTION PROTOTYPES:"
@@ -20,10 +24,11 @@ while IFS= read -r line;
 do
   if grep -q "$line" "$P"
   then
-    echo -n "[OK] "
-    grep "$line" "$P"
+    # echo -n "[OK] "
+    # grep "$line" "$P"
+    true
   else
-    echo "[--] " $(grep "$line" required-function-prototypes.txt)
+    echo "[--] "$(grep "$line" required-function-prototypes.txt)
   fi
 done < required-function-prototypes-regex.txt
 
@@ -44,7 +49,7 @@ then
     ./main < $t > $TMP
     if [ -f "Expected/$t" ]
     then
-      diff -w "Expected/$t" "$TMP"
+      diff -w <(grep -i -a encoded "Expected/$t") <(grep -i -a encoded  "$TMP")
     else 
       cat "$TMP"
     fi
