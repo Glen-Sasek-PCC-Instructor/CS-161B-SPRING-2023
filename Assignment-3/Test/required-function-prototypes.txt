@@ -1,0 +1,6 @@
+void readInput(int list[], int &count);
+void maxmin(int list[], int count, int &max, int &min);
+double avgArray(int list[], int count);
+bool isPalindrome(int list[], int count);
+void sort(int list[], int count);
+double median(int list[], int count);

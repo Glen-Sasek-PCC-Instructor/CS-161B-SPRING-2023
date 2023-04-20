@@ -1,0 +1,6 @@
+void readInput.*(int.*\[\],.*int.*&.*);
+void maxmin.*(int.*\[\],.*int.*,.*int.*&.*,.*int.*&.*);
+double avgArray.*(int.*\[\],.*int.*);
+bool isPalindrome.*(int.*\[\],.*int.*);
+void sort.*(int.*\[\],.*int.*);
+double median.*(int.*\[\],.*int.*);

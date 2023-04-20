@@ -1,0 +1,9 @@
+Welcome to my Array Statistics program!
+Please enter the values for the array (negative number to end input):
+Your stats are as below:
+Minimum: 0
+Maximum: 3
+Mean: 1.3
+Palindrome: true
+Median: 1.0
+Thank you for using my Array Statistics program!!

@@ -1,0 +1,6 @@
+void readInput
+void maxmin
+double avgArray
+bool isPalindrome
+void sort 
+double median
