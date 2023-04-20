@@ -1,0 +1,7 @@
+Pointer Tutorial
+
+With your programming partner, you will design and write a program to teach a user about the three different ways the * operator is used in C++.
+
+Your program should include a menu the user can choose from for each of the meanings of * - be sure to use the correct vocabulary for each meaning. Give explanations for each option. One of the options will be to quit the program. When an option is chosen, the program should ask the user for some input to show an example of how the * is being used. Print out the syntax to use the * in each of your examples. Think about the examples that will require the use of the &amp; symbol.
+
+Print links to resources or videos the user can view for additional help.

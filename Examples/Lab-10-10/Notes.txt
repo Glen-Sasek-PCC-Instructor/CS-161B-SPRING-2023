@@ -1,0 +1,15 @@
+Write a program that takes in a line of text as input, and outputs that line of text in reverse. You may assume that each line of text will not exceed 50 characters.The program repeats, ending when the user enters "Quit", "quit", or "q" for the line of text.
+
+Ex: If the input is:
+
+Hello there
+Hey
+quit
+then the output is:
+
+ereht olleH
+yeH
+Hints:
+
+Use the cin.getline() function to read a string with spaces from the user input. cin.getline(userString, 50); where userString is your char array and 50 is the maximum characters in the array.
+Remember to use strcmp to compare the userString to "Quit", "quit", or "q".

@@ -1,0 +1,38 @@
+// NOTE: This template is to be used for partner practice ONLY! You must
+// use the required Algorithmic Design Document for all Assignments.
+
+~~~~~SAMPLE RUN 1:~~~~
+Mower Street
+1991 
+$
+
+Your strong password is: Mower1991$
+
+~~~~~SAMPLE RUN 2:~~~~
+Gayathri Iyer 
+2024
+& 
+
+Your strong password is: Gayathri2024&
+
+===========================================================
+DESIGN:
+
+a) Inputs
+char phrase[20];
+char year[4];
+char symbol;
+
+-----------------------------------------------------------
+b) Outputs
+char passwordLabel[] = "Your strong password is: ";
+char password[PASSWORD_MAX_CHARS];
+
+-----------------------------------------------------------
+c) Calculations
+
+PASSWORD_MAX_CHARS = PHRASE_MAX_CHARS + YEAR_CHARS + 1;
+
+-----------------------------------------------------------
+d) Pseudocode
+

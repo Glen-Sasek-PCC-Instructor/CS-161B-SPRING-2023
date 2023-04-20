@@ -1,0 +1,9 @@
+STEM Analysis
+
+What percentage of men and women pursue STEM (Science, Technology, Engineering, Math) degrees? With your programming partner, you will complete a program that reads from a file called stem.txt&nbsp;and writes to an output file called stemout.txt. It does not store any data. But it uses loops and functions to read from the file and do some analysis. It calculates the percentage of men and women in each major and writes the name of the major, percentage men, and percentage women to the output file. Percentages should be printed to two decimal places.
+
+You must ignore the first line in stem.txt, which is a header line. The function openFile() has been written for you. You must write the ratioCalc() function.
+
+What other statistics can you calculate and add to the output file? Add another function to calculate one other statistic from the given data.
+
+https://replit.com/@sallenpcc/CS161PartnerPractice-STEM-Analysis

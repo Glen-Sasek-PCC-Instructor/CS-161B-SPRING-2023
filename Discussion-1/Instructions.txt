@@ -1,0 +1,21 @@
+Software Engineering Code of Ethics
+
+Software engineers shall commit themselves to making the analysis, specification, design, development, testing, and maintenance of software a beneficial and respected profession. In accordance with their commitment to the health, safety, and welfare of the public, software engineers shall adhere to Eight Principles. For this discussion, you will be researching one of the Eight Principles and creating an infographic to share with the class. An infographic is a collection of imagery, charts, and minimal text that gives an easy-to-understand overview of a topic.
+
+Task:
+
+https://ethics.acm.org/code-of-ethics/software-engineering-code/
+
+Read about the Software Engineering Code of Ethics and choose one of the Eight Principles to design an infographic around.
+Create a Google Slides deck and change the slide size to 8.5 x 11 inches. (File -&gt; Page Setup -&gt; Custom)
+Read the items below your Principle and include at least two on your infographic.
+Search the internet for examples of infographics. There are also sites out there where you can download a Google Slides infographic template. You must have multiple images (at least 4) and less text to get credit for this.
+Download your Infographic as a PDF (File -&gt; Download -&gt; PDF) and upload to this discussion.
+
+Look at one other student submission and give constructive feedback, using the Discussion Rubric.&nbsp;
+
+
+https://www.edutopia.org/article/teaching-students-give-peer-feedback/
+Feedback must be meaningful - check out this article on giving effective feedback using SPARK. For example if a student picks Principle 3: PRODUCT, for their Principle - be specific in your comments - why was their choice good or appropriate, offer strategy or strategies to improve the work, including possible revisions or links to helpful resources or examples.  Please explain the reason for your grade and comments, always using generosity and respect when giving feedback.
+
+All the above aspects must be covered to get points for peer feedback.

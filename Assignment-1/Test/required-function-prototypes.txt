@@ -1,0 +1,6 @@
+int readInt(string prompt);
+void readScore(string prompt, double &num);
+double assignAverage(int numAssigns);
+void getInput(double &midtermScore, double &finalExamScore);
+double calcFinalScore(double assignAvg, double midterm, double final);
+void calcLetterGrade(double finalScore, char &letter);

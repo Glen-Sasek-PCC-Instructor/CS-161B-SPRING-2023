@@ -1,0 +1,5 @@
+void welcome
+char displayMenu
+void encode
+void readInput
+void readTime

@@ -1,0 +1,6 @@
+int readInt
+void readScore
+double assignAverage
+void getInput
+double calcFinalScore
+void calcLetterGrade

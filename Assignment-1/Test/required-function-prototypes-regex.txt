@@ -1,0 +1,6 @@
+int readInt(string.*);
+void readScore(string.*,.*double.*&.*);
+double assignAverage(int.*);
+void getInput(double.*&.*,.*double.*&.*);
+double calcFinalScore(double.*,.*double.*,.*double.*);
+void calcLetterGrade(double.*,.*char.*&.*);

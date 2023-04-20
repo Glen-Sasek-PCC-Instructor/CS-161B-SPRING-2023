@@ -1,0 +1,29 @@
+Welcome to my fileName encoding program!
+
+Please pick an option below:
+
+(e)Encode a file name
+(q)quit
+
+>> 
+Enter your first name: 
+Enter your last name: 
+Was your assignment late(y/n): 
+Enter your Student-ID (format: 222-22-2222): 
+Enter the file name: 
+Enter the time submitted (military time - ex: 18:24 for 6:24pm):
+Your encoded file name is: iyer_gd_LATE_4556_1345_a05.cpp
+
+Please pick an option below:
+
+(e)Encode a file name
+(q)quit
+
+>> Invalid Choice
+Please pick an option below:
+
+(e)Encode a file name
+(q)quit
+
+>> 
+Thank you for using my fileName generator!

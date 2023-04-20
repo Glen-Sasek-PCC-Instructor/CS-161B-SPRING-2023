@@ -1,0 +1,12 @@
+9.8 LAB: Swapping variables
+Write a program whose input is two integers and whose output is the two integers swapped.
+
+Ex: If the input is:
+
+3 8
+the output is:
+
+8 3
+Your program must define and call a function. SwapValues swaps the two values such that if userVal1 = 3 and userVal2 = 8, after the function is called userVal1 = 8, and userVal2 = 3.
+
+void SwapValues(int &userVal1, int &userVal2)

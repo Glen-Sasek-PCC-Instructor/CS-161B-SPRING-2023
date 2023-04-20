@@ -1,0 +1,19 @@
+Debugging
+ Tutorial
+
+With your programming partner, you will design and write a program that has a bug. Find the bug and explain how to avoid such bugs and fix the bug.
+
+Your program could use any coding construct like conditional, loops, arrays, structs or pointers. The bug that you introduce must not be syntactical - meaning, missing semi colons, curly brackets, misspelling variables, etc are not bugs. They are syntax errors. Errors that are logical - meaning your program compiles, but you have errors when the program runs. Do not explain the bug - let your peers find the bug and try to offer solutions to fix your bug.
+
+For example:&nbsp;
+
+Syntax error:
+
+cout << "This is not right!!";
+
+A bug:
+
+if (number > 0);
+{
+   cout << "Find the bug!!";
+}

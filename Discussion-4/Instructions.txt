@@ -1,0 +1,26 @@
+Shift numbers to the right.
+
+With your programming partner, write a program that reads a list of integers from input into an array and modifies the array by shifting numbers to the right and moving the numbers to the front of the list. The input begins with an integer indicating the number of values that follow. The last input is the index of the number to start shifting from. Output the modified array and end with a newline.
+
+Ex: If the input is:
+
+6 
+2 4 6 8 10 12
+4
+
+
+the output is:
+
+10 12 2 4 6 8 
+
+
+Ex: If the input is:
+
+6 
+2 4 6 8 10 12
+2
+
+
+the output is:
+
+6 8 10 12 2 4

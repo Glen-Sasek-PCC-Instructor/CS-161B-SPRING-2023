@@ -1,0 +1,6 @@
+void welcome();
+char displayMenu();
+void encode(char.*\[\]);
+void readInput(char.*\[\],.*char.*\[\],.*bool.*&.*);
+void readInput(char.*\[\],.*char.*\[\]);
+void readTime(char.*\[\]);

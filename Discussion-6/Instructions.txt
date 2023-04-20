@@ -1,0 +1,10 @@
+Struct Practice
+
+With your programming partner, you will design and write a program using a struct. Think about a grouping of data for something you use every day, maybe information about a pet, song, game, car, class you are taking, or anything else that is meaningful to you and your partner. Your program must:
+
+Create a variable of the defined struct in main(). Your struct must have one or two char arrays and at least 3 data members.
+Pass the variable by reference to a function and prompt the user for the member information. Make sure to validate all input.
+Pass the variable by constant reference to a function to print the members of the struct variable.
+
+A constant reference is usually preferred to passing by copy when the structure is large. Passing large structures by value can decrease a program's performance because a copy of the structure is created. When the struct variable is passed by reference, it isn't copied, but the function does have access to the original argument. To prevent the function from changing the contents, add the const keyword to the reference parameter.
+
