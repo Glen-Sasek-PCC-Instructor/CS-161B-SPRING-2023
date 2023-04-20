@@ -12,9 +12,9 @@ Enter your last name:
 Enter your first name: 
 Was your assignment Late (y/n)? 
 Enter your Student-ID (format: 222-22-2222):
-Enter the name of the file: 
+Enter the file name: 
 Enter the time submitted (military time - ex: 18:24 for 6:24pm): 
-Encoded file name: stevens_mac_LATE_9876_1223_assignment2.cpp
+Your encoded file name is: stevens_mac_LATE_9876_1223_assignment2.cpp
 Please pick an option below:
 (e) Encode a file name
 (q) Quit

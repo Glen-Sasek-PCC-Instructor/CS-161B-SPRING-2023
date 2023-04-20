@@ -1,16 +1,17 @@
 #! /bin/bash
 
-P=${1:-'../*.cpp '}
+P=${1:-../*.cpp}
 
-pushd $(find $0 -printf "%h") > /dev/null
+pushd $(find $0 -printf "%h") # > /dev/null
+pwd
 
 # Verify Header
-head -n 3 "$P"
+head -n 3 $P
 
 echo -e "\nREQUIRED FUNCTION NAMES:"
 while IFS= read -r line; 
 do
-  if grep -q "$line" "$P" 
+  if grep -q "$line" $P 
   then
     true # Do nothing, successfully!
   else
@@ -22,7 +23,7 @@ echo -e "\nREQUIRED FUNCTION PROTOTYPES:"
 
 while IFS= read -r line; 
 do
-  if grep -q "$line" "$P"
+  if grep -q "$line" $P
   then
     # echo -n "[OK] "
     # grep "$line" "$P"
@@ -37,7 +38,7 @@ then
   rm main
 fi
 
-g++ -o main "$P"
+clang++ -o main -g -Wno-everything $P
 
 if [ -f main ]
 then
@@ -49,7 +50,7 @@ then
     ./main < $t > $TMP
     if [ -f "Expected/$t" ]
     then
-      diff -w <(grep -i -a encoded "Expected/$t") <(grep -i -a encoded  "$TMP")
+      diff -w <(grep -i -a encoded "Expected/$t") <(grep -i -a encoded  "$TMP") && echo "[OK]"
     else 
       cat "$TMP"
     fi

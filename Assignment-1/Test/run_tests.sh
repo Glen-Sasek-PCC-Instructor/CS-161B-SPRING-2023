@@ -1,16 +1,16 @@
 #! /bin/bash
 
-P=${1:-'../*.cpp '}
+P=${1:-../*.cpp }
 
 pushd $(find $0 -printf "%h") > /dev/null
 
 # Verify Header
-head -n 3 "$P"
+head -n 3 $P
 
 echo -e "\nREQUIRED FUNCTION NAMES:"
 while IFS= read -r line; 
 do
-  if grep -q "$line" "$P" 
+  if grep -q "$line" $P 
   then
     true # Do nothing, successfully!
   else
@@ -22,10 +22,10 @@ echo -e "\nREQUIRED FUNCTION PROTOTYPES:"
 
 while IFS= read -r line; 
 do
-  if grep -q "$line" "$P"
+  if grep -q "$line" $P
   then
     # echo -n "[OK] "
-    # grep "$line" "$P"
+    # grep "$line" $P
     true
   else
     echo "[--] "$(grep "$line" required-function-prototypes.txt)
@@ -37,7 +37,7 @@ then
   rm main
 fi
 
-g++ -o main "$P"
+clang++ -o main -g -Wno-everything $P
 
 if [ -f main ]
 then
