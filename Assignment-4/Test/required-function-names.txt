@@ -1,0 +1,6 @@
+readInput
+findIntersect
+deleteNum
+welcomeMessage
+readInput
+readInt

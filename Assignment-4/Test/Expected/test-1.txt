@@ -1,0 +1,12 @@
+Welcome to my Set of Numbers program!!
+Enter numbers for set 1 on separate lines (-1 to end):
+>> >> >> >> >> Your set 1 with 4 numbers ordered:
+3 4 6 12
+Enter numbers for set 2 on separate lines (-1 to end):
+>> >> >> Your set 2 with 2 numbers ordered:
+4 6
+The new sets are:
+Set1: 3 12
+Set2: 4 6
+Thank you for checking out my Set of Numbers program!
+

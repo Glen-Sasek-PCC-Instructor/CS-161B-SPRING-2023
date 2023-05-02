@@ -1,0 +1,13 @@
+Welcome to my Set of Numbers program!!
+Enter numbers for set 1 on separate lines (-1 to end):
+>> >> >> >> >> >> Invalid number! Please try again!
+>> >> Your set 1 with 6 numbers ordered:
+3 4 9 12 16 21
+Enter numbers for set 2 on separate lines (-1 to end):
+>> >> Invalid number! Please try again!
+>> >> >> Your set 2 with 3 numbers ordered:
+9 12 16
+The new sets are:
+Set1: 3 4 21
+Set2: 9 12 16
+Thank you for checking out my Set of Numbers program!

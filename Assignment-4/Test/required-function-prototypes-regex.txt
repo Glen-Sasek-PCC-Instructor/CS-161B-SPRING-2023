@@ -1,0 +1,6 @@
+void.*readInput(int.*\[\]);
+void.*findIntersect(int.*\[\],.*int.*\[\]);
+void.*deleteNum(int.*\[\],.*int.*);
+void.*welcomeMessage();
+void.*readInput(int.*\[\]);
+int.*readInt();
