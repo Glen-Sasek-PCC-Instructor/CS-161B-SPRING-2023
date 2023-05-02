@@ -1,6 +1,6 @@
 void welcome();
 char displayMenu();
 void encode(char encodeFileName[]);
-readInput(char fName[], char lName[], bool &lateFlag);
-readInput(char parsedID[], char fileName[]);
-readTime(char strTime[]);
+void readInput(char fName[], char lName[], bool &lateFlag);
+void readInput(char parsedID[], char fileName[]);
+void readTime(char strTime[]);

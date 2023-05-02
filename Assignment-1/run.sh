@@ -1,10 +1,10 @@
 #! /bin/bash
 
-g++ main.cpp && ./a.out
+clang++ -o main -g -Wno-everything main.cpp && ./main
 
-if [ -f ./a.out ]
+if [ -f ./main ]
 then
-  rm ./a.out
+  rm ./main
 fi
 
 

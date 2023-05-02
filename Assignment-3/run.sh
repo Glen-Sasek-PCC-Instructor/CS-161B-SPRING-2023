@@ -1,6 +1,6 @@
 #! /bin/bash
 
-g++ main.cpp && ./a.out
+clang++ -o main -g -Wno-everything main.cpp && ./a.out
 
 if [ -f ./a.out ]
 then
